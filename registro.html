@@ -15,10 +15,8 @@
 <body class="form-v10">
 	<div class="page-content">
 		<div class="form-v10-content">
-	<div class="alerta">
-			<div class="alert alert-danger" role="alert">
-		 This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-		</div>
+	<div class="alerta" id='alertaDiv'>
+		
 	</div>
 			<form class="form-detail" action="#" method="post" id="myform">
 				<div class="form-left">
@@ -42,7 +40,7 @@
 					</div>
 
 					<div class="form-row">
-						<select name="genero">
+						<select name="sexo" id="sexo">
 						<optgroup label="Sexo" class="select_group_white">
 						    <option value="Masculino">Masculino</option>
 						    <option value="Femenino">Femenino</option>
@@ -54,7 +52,7 @@
 					</div>
 
 				<div class="form-row">
-				<input type="date" id="start" name="trip-start" value="2018-07-22" min="1950-01-01" max="2018-12-31">
+				<input type="date" id="fecha" name="fecha"  min="1950-01-01" max="2018-12-31">
 				</div>
 
 					<div class="form-row">
@@ -62,7 +60,7 @@
 					</div>
 				<div class="form-group">
 						<div class="form-row form-row-1">
-							<input type="text" name="tel_fijo" id="tel_fijo" class="input-text" placeholder="Telefono Fijo" required>
+							<input type="text" name="telefono" id="telefono" class="input-text" placeholder="Telefono Fijo" required>
 						</div>
 						<div class="form-row form-row-2">
 							<input type="text" name="celular" id="celular" class="input-text" placeholder="Celular" required>
@@ -74,7 +72,11 @@
 						<input type="text" name="calle" class="input-text" id="calle" placeholder="Calle" required>
 				</div>
 				<div class="form-row">
-						<input type="text" name="colonia" class="input-text" id="colonia" placeholder="Colonia" required>
+					<!--	<input type="text" name="colonia" class="input-text" id="colonia" placeholder="Colonia" required> -->
+					<select name="colonia" id="coloniaS">
+					<!-- <option class="hola"> </option>
+						-->
+					</select>
 				</div>
 
 				<div class="form-group">
@@ -85,24 +87,27 @@
 							<input type="text" name="codigo_postal" id="codigo_postal" class="input-text" placeholder="Codigo Postal" required>
 						</div>
 				</div>
-
+				
+			
 				<div class="form-group">
 						<div class="form-row form-row-1">
 							<input type="text" name="municipio" id="municipio" class="input-text" placeholder="Alcaldia-Municipio" required>
 						</div>
 						<div class="form-row form-row-2">
-							<input type="text" name="estado" id="estado" class="input-text" placeholder="Estado" required>
+							<input type="text" name="estado" id="estado" class="input-text" placeholder="Estado">
 						</div>
 					</div>
+					
+			
 
 				</div>
 				<div class="form-right">
 					<h2>Informacion Academica</h2>
 					<div class="form-row">
-						<input type="text" name="escuela" class="escuela" id="input-text" placeholder="Nombre escuela de Procedencia" required>
+						<input type="text" name="escuela" class="input-text" id="escuela" placeholder="Nombre escuela de Procedencia" required>
 					</div>
 					<div class="form-row">
-						<select name="formacion_tecnica">
+						<select name="formacion_tecnica" id="formacion_tecnica">
 						  <optgroup label="Formacion Tecnica" class="select_group">
 						    <option value="fm">Rama de Físico - Matemáticas</option>
 						    <option value="mb">Rama de Medico – Biológicas</option>
@@ -115,7 +120,7 @@
 					</div>
 
 					<div class="form-row">
-						<select name="localidad">
+						<select name="localidad" id ="localidad">
 						<optgroup label="Localidad" class="select_group">
 						    <option value="urbana">Urbana</option>
 						    <option value="rural">Rural</option>
@@ -133,7 +138,7 @@
 					<h2>Datos academicos actuales</h2>
 
 					<div class="form-row">
-						<select name="programa_academico">
+						<select name="programa_academico" id="programa_academico">
 						 <optgroup label="Programa Academico" class="select_group">
 						    <option value="isc">Ingenieria en Sistemas Computacionales</option>
 						    <option value="ia">Ingenieria en Inteligencia Artificial </option>
@@ -146,7 +151,7 @@
 					</div>
 
 				<div class="form-row">
-						<select name="programa_academico">
+						<select name="semestre" id="semestre">
 						 <optgroup label="Semestre a que se integra" class="select_group">
 						    <option value="1">1</option>
 						    <option value="2">2</option>
@@ -176,7 +181,9 @@
 			</form>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="./js/registro.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
