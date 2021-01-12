@@ -78,10 +78,10 @@ function validarCampos (e){
         mostrarAdevertencia("Codigo Postal invalido inserte digitos")
         return;
     }
-    if(validaNumero(promedio)){
-        mostrarAdevertencia("Promedio Invalido inserte digitos");
-        return;
-    }
+   // if(validaNumero(promedio)){
+     //   mostrarAdevertencia("Promedio Invalido inserte digitos");
+       // return;
+    //}
     
 
    
@@ -102,6 +102,8 @@ consultarApi(cp);
     console.log(fecha);
 
     console.log(nombre);
+    console.log("TODO BIEN");
+    formulario.submit();
 }
 
 function obtenerCP(){
