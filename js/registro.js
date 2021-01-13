@@ -92,7 +92,7 @@ function validarCampos (e){
 
    
 
-consultarApi(cp);
+//consultarApi(cp);
 
 
 
