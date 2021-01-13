@@ -1,0 +1,38 @@
+[12-Jan-2021 19:28:04 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home4/proye229/public_html/web/signin/registrar.php on line 7
+[12-Jan-2021 23:21:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home4/proye229/public_html/web/signin/registrar.php on line 87
+[12-Jan-2021 23:22:17 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home4/proye229/public_html/web/signin/registrar.php on line 87
+[12-Jan-2021 23:26:57 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home4/proye229/public_html/web/signin/registrar.php on line 89
+[12-Jan-2021 23:28:39 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home4/proye229/public_html/web/signin/registrar.php on line 89
+[12-Jan-2021 23:29:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'refresh' (T_STRING) in /home4/proye229/public_html/web/signin/registrar.php on line 89
+[12-Jan-2021 23:31:58 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:31:58 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:34:14 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:34:14 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:36:16 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:36:16 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:41:30 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:41:30 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:43:14 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:43:14 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:45:25 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:45:25 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:49:23 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:49:23 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:51:29 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:51:29 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:52:06 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:52:06 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:53:45 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:53:45 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[12-Jan-2021 23:56:42 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[12-Jan-2021 23:56:42 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[13-Jan-2021 08:48:56 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[13-Jan-2021 08:48:56 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[13-Jan-2021 08:49:51 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[13-Jan-2021 08:49:51 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[13-Jan-2021 09:06:15 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[13-Jan-2021 09:06:15 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[13-Jan-2021 09:07:50 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[13-Jan-2021 09:07:50 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
+[13-Jan-2021 09:14:22 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home4/proye229/public_html/web/signin/registrar.php on line 49
+[13-Jan-2021 09:14:22 America/Mexico_City] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home4/proye229/public_html/web/signin/registrar.php on line 50
